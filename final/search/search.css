@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-top:10%;
+    font-size:30px;
+    color:transparent;
+    text-align: center;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+body{
+    background-color: black;
+}
+
+.main
+{
+    text-align:center;
+    display:grid;
+    justify-content: center;
+    grid-template-rows: 400px;
+    grid-template-columns: repeat(auto-fit,minmax(450px,450px));
+    margin:40px;
+}
+.raw1{
+    
+}
+.raw2{
+    
+}

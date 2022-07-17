@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="searchStyle1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<form action="#">
+    <div class="main">
+
+        <div class="hero">
+            <div id="searchBox">
+                
+                    <img src="p1.png" id="tyhIcon">
+                    <input type="text" placeholder="Search Information About Doctor" required>
+                    <input type="image" src="p2.jpg" alt="Submit" width="30" height="30" id="sub">
+                    
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var searchBox = document.getElementById("searchBox");
+        var tyhIcon = document.getElementById("tyhIcon");
+
+        tyhIcon.onclick = function () {
+            searchBox.classList.toggle("active");
+        }
+    </script>
+</body>
+</form>
+
+</html>

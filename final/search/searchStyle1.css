@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: grid;
+    place-items:center;
+
+    
+}
+
+
+.search2{
+          margin-top: 20px;          
+    text-align: center;
+    border:2px solid black;
+    width:400px;
+    padding:20px;
+    height: 200px;
+    font-size:20px;
+    background-color: rgb(5,28,35);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 6px 1px black;
+
+    
+}
+.search2:hover{
+    background-color: rgb(5,28,25);
+}
+
+.search1{
+          margin-top: 20px;          
+    text-align: center;
+    border:2px solid black;
+    width:400px;
+    padding:20px;
+    height: 530px;
+    font-size:20px;
+    background-color: rgb(5,28,35);
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 6px 1px black;
+
+    
+}
+.search1:hover{
+    background-color: rgb(5,28,25);
+}
+
+
+
+table{
+    font-size:20px;
+    color:white;
+}
+tr{
+    height: 40px;
+    word-spacing: 2px;
+}
+td:hover{
+    color:lightblue;
+}
+
+
+
+
+.hero {
+    width: 100%;
+    height: 150px;
+    background: #f0f3ff;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#searchBox {
+    border-radius: 55px;
+    padding: 30px;
+    background: #f0f3ff;
+    display: flex;
+    align-items: center;    
+    box-shadow: 12px 6px 15px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+
+#tyhIcon {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.fa-brands{
+    font-size: 0px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    color:black;
+}
+
+button{
+    background-color:#f0f3ff;
+    border:none;
+    cursor: pointer;
+}
+
+input {
+    font-size: 20px;
+    width: 0px;
+    border: 0;
+    background: transparent;
+    outline: none;
+    transition: 2s;
+}
+
+
+.active input {
+    width: 500px;
+    padding: 12px 20px;
+}
+.active .fa-brands{
+    font-size: 35px;
+}
+.active #sub{
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width:678px) {
+    #tyhIcon {
+        width: 40px;
+    }
+
+    .active input {
+        width: 350px;
+        padding: 6px 10px;
+    }
+
+    #searchBox {
+        padding: 20px;
+    }
+}
