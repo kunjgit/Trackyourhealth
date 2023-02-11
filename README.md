@@ -6,7 +6,7 @@ it will value add in universe.it will dematerialize medical field
 
 Challenges we ran into:-
 
-the difficultie that we find is to make database efficient that we can easyly search patient or the doctor's detail so it's all about database problems.
+the difficulties that we find is to make database efficient that we can easily search patient or the doctor's detail so it's all about database problems.
 
 
 
